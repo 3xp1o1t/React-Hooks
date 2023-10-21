@@ -1,4 +1,11 @@
-# React + TypeScript + Vite
+# Learning React Hooks with TypeScript
+
+- useReducer/useContext with a counter example.
+  - Simple counter using context, reducer and a custom hook
+
+## Vite readme
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
