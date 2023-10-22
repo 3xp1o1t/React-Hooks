@@ -1,0 +1,12 @@
+:root {
+  box-sizing: border-box;
+  background-color: #333;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  font-weight: 700;
+  color: green;
+  cursor: pointer;
+}

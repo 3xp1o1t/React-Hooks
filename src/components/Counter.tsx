@@ -1,4 +1,4 @@
-import { useCounter } from '../context/CounterContext';
+import { useCounter } from '../hooks/useCounter';
 
 const Counter = () => {
   const context = useCounter();

@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useContext, useReducer } from 'react';
+import { ReactNode, createContext, useReducer } from 'react';
 
 interface State {
   count: number;
@@ -41,9 +41,4 @@ const CounterProvider = ({ children }: CounterProviderProps) => {
   );
 };
 
-const useCounter = () => {
-  const context = useContext(CounterContext);
-  return context;
-};
-
-export { CounterProvider, useCounter };
+export { CounterContext, CounterProvider };
